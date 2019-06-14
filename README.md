@@ -1,5 +1,5 @@
 # Fedora 29 Ansible Test Image #
-[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/samdoran/fedora29-ansible.svg)](https://hub.docker.com/r/samdoran/fedora29-ansible/) ![Docker Pulls](https://img.shields.io/docker/pulls/samdoran/fedora29-ansible.svg)
+[![Docker Repository on Quay](https://quay.io/repository/samdoran/fedora29-ansible/status "Docker Repository on Quay")](https://quay.io/repository/samdoran/fedora29-ansible)
 
 This is a container for testing Ansible roles with [Molecule](https://molecule.readthedocs.io/en/stable/). It includes the latest version of Ansible available on this platform and is rebuilt regularly. It can also be used if you need to run Ansible on a specific operating system.
 
