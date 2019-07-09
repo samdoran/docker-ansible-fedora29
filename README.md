@@ -26,7 +26,7 @@ If you already have a role being testing using Molecule, add this to the `platfo
 ```yaml
 platforms:
   - name: role-test
-    image: "samdoran/${MOLECULE_DISTRIBUTION:-fedora29}-ansible:latest"
+    image: "quay.io/samdoran/${MOLECULE_DISTRIBUTION:-fedora29}-ansible:latest"
     command: ${MOLECULE_COMMAND:-""}
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
